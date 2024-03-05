@@ -20,4 +20,4 @@ OrdenCompraSchema.methods.rev = function(protesisId){
 
 OrdenCompraSchema.plugin(require("mongoose-autopopulate"));
 
-module.exports = mongoose.exports("ordenCompra", OrdenCompraSchema);
+module.exports = mongoose.model("ordenCompra", OrdenCompraSchema);
