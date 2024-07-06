@@ -22,7 +22,7 @@ class FacturaRespository extends BaseRepository{
         .limit(pageSize);
     }
 
-    async getbyCod(cod){
+    async getFactura(cod){
         return await _factura.find({ codigo: {$regex: cod, $options: "i"}});
     }
 }
