@@ -1,9 +1,9 @@
 module.exports = {
-    User: require("./user.model"),
-    Protesis: require("./protesis.model"),
-    Paciente: require("./paciente.model"),
-    Visita: require("./visita.model"),
-    Licitacion: require("./licitacion.model"),
-    Factura: require("./factura.model"),
-    OrdenCompra: require("./ordenCompra.model"),
-}
+  User: require("./user.model"),
+  Paciente: require("./paciente.models"),
+  Protesis: require("./protesis.model"),
+  Visita: require("./visita.model"),
+  OrdenCompra: require("./ordenCompra.models"),
+  Factura: require("./factura.models"),
+  Licitacion: require("./licitacion.models")
+};

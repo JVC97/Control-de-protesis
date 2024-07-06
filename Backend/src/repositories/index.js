@@ -1,9 +1,9 @@
 module.exports = {
-    UserRespository: require("./user.repository"),
-    PacienteRepository: require("./paciente.repository"),
-    Protesisrepostory: require("./protesis.repository"),
-    FacturaRepository: require("./factura.repository"),
-    LicitacionRepository: require("./licitacion.repository"),
-    VisitaRepository: require("./visita.repository"),
-    OrdenCompraRepository: require("./ordenCompra.repository")
-}
+  UserRepository: require("./user.repository"),
+  PacienteRepository: require("./paciente.repository"),
+  ProtesisRepository: require("./protesis.repository"),
+  VisitaRepository: require("./Visita.repository"),
+  OrdenCompraRepository: require("./ordenCompra.reposotory"),
+  FacturaRepository: require("./factura.repository"),
+  LicitacionRepository: require("./licitacion.repository")
+};
